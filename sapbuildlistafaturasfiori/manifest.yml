@@ -1,0 +1,8 @@
+---
+applications:
+- name: sapbuildlistafaturasfiori
+  routes:
+    - route: sappsbr-sapbuildlistafaturasfiori.cfapps.us10.hana.ondemand.com
+  path: ./
+  memory: 128M
+  buildpack: staticfile_buildpack

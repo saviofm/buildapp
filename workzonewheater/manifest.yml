@@ -1,0 +1,8 @@
+---
+applications:
+- name: workzonewheater
+  routes:
+    - route: sappsbr-workzonewheater.cfapps.us10.hana.ondemand.com
+  path: ./
+  memory: 128M
+  buildpack: staticfile_buildpack

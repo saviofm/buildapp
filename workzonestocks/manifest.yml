@@ -1,0 +1,8 @@
+---
+applications:
+- name: workzonestocks
+  routes:
+    - route: sappsbr-workzonestocks.cfapps.us10.hana.ondemand.com
+  path: ./
+  memory: 128M
+  buildpack: staticfile_buildpack
